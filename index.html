@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Registration | sign in</title>
+</head>
+
+<body>
+    <div>
+        <!-- first block element -->
+
+
+
+        <h1><b>Registration</b></h1>
+        <p>please fill out this form with the required information</p>
+        <br>
+
+        <!-- input type text, email, password (basic information input) -->
+
+        <b><label for="name">Enter your First Name:</label></b><br>
+        <input type="text">
+
+        <br><br>
+
+        <b><label for="name">Enter your last Name:</label></b><br>
+        <input type="text">
+
+        <br><br>
+
+        <b><label for="name">Enter your Email:</label></b><br>
+        <input type="email">
+
+        <br><br>
+
+        <b><label for="name">Create a new Password:</label></b><br>
+        <input type="password"><br><br>
+        <hr><br>
+
+        <!-- input type radio (account type)   -->
+
+        <b><label for="name">Account Type</label></b><br>
+        <input type="radio" required id="Personal account" name="account type" value="Personal account">
+        <label for="">Personal account</label><br>
+
+        <input type="radio" required id="Business account" name="account type" value="Business account">
+        <label for="">Business account</label><br>
+
+        <input type="checkbox" value="male"><label for="">I accept the <a href="">terms and condition</a></label><br><br>
+        <hr><br>
+
+        <!-- upload a picture  -->
+
+        <label for="">Upload a Profile Picture:</label><br>
+        <input type="file" accept=".jpg"><br><br>
+
+        <!-- Age  -->
+
+        <b><label for="age">Input your Age (in years):</label></b><br>
+        <input type="text" size=84><br><br>
+
+        <!--  -->
+        <b><label for="aboutus">how did you hear about us</label></b><br>
+        <select name="(select one)" id="aboutus">
+                    <option value="(select one)">(select one)</option>
+                    <option value="">family</option>
+                    <option value="">friends</option>
+                    <option value="">social media</option>
+                    <option value="">newspaper</option>
+                    <option value="">Ads</option>
+                    <option value="">others</option>    
+            </select>
+
+        <!-- bio -->
+
+        <b><label for="">About your self</label></b><br>
+        <textarea name="" id="" cols="83" rows="3">i like mango ice-cream </textarea>
+
+
+
+        <br><br>
+        <button type="reset">Submit</button>
+    </div>
+</body>
+
+</html>
+
+<style>
+    body {
+        margin: 20px 300px;
+        background-color: #fcffd1;
+    }
+    
+    div {
+        background-color: #3660a7;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 5px 5px 50px 5px;
+    }
+    
+    input {
+        background-color: #99aace;
+        border: 0;
+        color: dimgray;
+        margin: 1% 0%;
+        padding: 3px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="file"] {
+        width: 100%;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+    }
+    
+    a {
+        color: black;
+    }
+    
+    select {
+        background-color: #99aace;
+        margin: 5px 0px;
+        width: 100%;
+    }
+    
+    textarea {
+        background-color: #99aace;
+    }
+    
+    button {
+        padding: 8px 80px;
+        margin: 0px 35%;
+        size: 50;
+        background-color: #99aace;
+        border: 2px;
+    }
+</style>
